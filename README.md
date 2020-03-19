@@ -1,4 +1,5 @@
 # So Toulouse !
-## Projet d'études (PTUT)
 
-==== Description ====
+## PTUT Projet
+
+==== Description of the project ====
