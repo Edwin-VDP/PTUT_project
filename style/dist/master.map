@@ -3,14 +3,14 @@
 	"file": "master.css",
 	"sources": [
 		"../sass/master.scss",
-		"../sass/common.scss",
-		"../sass/index.scss"
+		"../sass/index.scss",
+		"../sass/common.scss"
 	],
 	"sourcesContent": [
-		"//\r\n// Sass file\r\n// Import all files\r\n//\r\n\r\n@import \"./common.scss\";\r\n@import \"./index.scss\";\r\n",
-		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 1px solid #c0c0c0;\r\n}\r\n",
-		"//\r\n// Index style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#index\r\n{\r\n    background-color: #E1E6FA;\r\n\r\n    .title {\r\n        height: 100px;\r\n        width: 1100px;\r\n        img {\r\n            width: inherit;\r\n            height: inherit;\r\n        }\r\n    }\r\n\r\n    .content {\r\n\r\n    }\r\n}\r\n"
+		"//\r\n// Sass file\r\n// Import all files\r\n//\r\n\r\n@import \"./index.scss\";\r\n@import \"./common.scss\";\r\n\r\n\r\n\r\n",
+		"//\r\n// Index style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#index\r\n{\r\n    background-color: #FFFAFA;\r\n    .title {\r\n        background-color: #C4D7ED;\r\n        margin-left: auto;\r\n        margin-right: auto;\r\n        margin-bottom: 20px;\r\n        height: 100px;\r\n        width: 1100px;\r\n        img {\r\n            width: inherit;\r\n            height: inherit;\r\n        }\r\n    }\r\n\r\n    .content{\r\n        background-color: #C4D7ED;\r\n        margin-left: auto;\r\n        margin-right: auto;\r\n        text-align: center;\r\n        max-width: 1200px;\r\n        font-size: 32px;\r\n        font-family: \"Raleway\";\r\n\r\n        .container {\r\n        display: flex;\r\n        flex-direction: row;\r\n        align-items: stretch;\r\n        }\r\n\r\n        .text{\r\n            text-align: justify;\r\n            font-size: 20px;\r\n            font-family: \"OpenSans\";\r\n        }\r\n        .main_picture{\r\n            border: thin;\r\n        }\r\n    }\r\n}\r\n",
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 3px solid #c0c0c0;\r\n}\r\n\r\n.access {\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n    margin-bottom: 15px;\r\n    border: 2px solid grey;\r\n    width: 600px;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";ACKA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B;;;ACFD,AAAA,MAAM,CACN;EACI,gBAAgB,EAAE,OAAO;CAc5B;;;AAhBD,AAII,MAJE,CAIF,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAKhB;;;AAXL,AAOQ,MAPF,CAIF,MAAM,CAGF,GAAG,CAAC;EACA,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAClB"
+	"mappings": ";ACKA,AAAA,MAAM,CACN;EACI,gBAAgB,EAAE,OAAO;CAsC5B;;;AAxCD,AAGI,MAHE,CAGF,MAAM,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAKhB;;;AAdL,AAUQ,MAVF,CAGF,MAAM,CAOF,GAAG,CAAC;EACA,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAClB;;;AAbT,AAgBI,MAhBE,CAgBF,QAAQ,CAAA;EACJ,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;EACjB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,SAAS;CAgBzB;;;AAvCL,AAyBQ,MAzBF,CAgBF,QAAQ,CASJ,UAAU,CAAC;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,OAAO;CACnB;;;AA7BT,AA+BQ,MA/BF,CAgBF,QAAQ,CAeJ,KAAK,CAAA;EACD,UAAU,EAAE,OAAO;EACnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,UAAU;CAC1B;;;AAnCT,AAoCQ,MApCF,CAgBF,QAAQ,CAoBJ,aAAa,CAAA;EACT,MAAM,EAAE,IAAI;CACf;;;ACtCT,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B;;;AAED,AAAA,OAAO,CAAC;EACJ,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,KAAK;CACf"
 }
