@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "master.css",
+	"sources": [
+		"sass/master.scss",
+		"sass/common.scss"
+	],
+	"sourcesContent": [
+		"//\r\n// Sass file\r\n// Import all files\r\n//\r\n\r\n@import \"./common.scss\"",
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.hello {\r\n    width: 0px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";ACKA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG;CACb"
+}

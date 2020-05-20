@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "common.css",
+	"sources": [
+		"sass/common.scss"
+	],
+	"sourcesContent": [
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.hello {\r\n    width: 0px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG;CACb"
+}
