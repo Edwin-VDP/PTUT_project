@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"//\r\n// Sass file\r\n// Import all files\r\n//\r\n\r\n@import \"./common.scss\";\r\n@import \"./index.scss\";\r\n",
-		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 1px solid #c0c0c0;\r\n}\r\n\r\n.img-fluid {\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\r\n",
-		"//\r\n// Index style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#index\r\n{\r\n    background-color: #C4D7ED;\r\n\r\n    .title {\r\n        height: 100px;\r\n        width: 1100px;\r\n    }\r\n\r\n    .content {\r\n\r\n    }\r\n}\r\n"
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 1px solid #c0c0c0;\r\n}\r\n",
+		"//\r\n// Index style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#index\r\n{\r\n    background-color: #E1E6FA;\r\n\r\n    .title {\r\n        height: 100px;\r\n        width: 1100px;\r\n        img {\r\n            width: inherit;\r\n            height: inherit;\r\n        }\r\n    }\r\n\r\n    .content {\r\n\r\n    }\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";ACKA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B;;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACnB;;;ACPD,AAAA,MAAM,CACN;EACI,gBAAgB,EAAE,OAAO;CAU5B;;;AAZD,AAII,MAJE,CAIF,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAChB"
+	"mappings": ";ACKA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B;;;ACFD,AAAA,MAAM,CACN;EACI,gBAAgB,EAAE,OAAO;CAc5B;;;AAhBD,AAII,MAJE,CAIF,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAKhB;;;AAXL,AAOQ,MAPF,CAIF,MAAM,CAGF,GAAG,CAAC;EACA,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAClB"
 }

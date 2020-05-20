@@ -3,21 +3,21 @@
   border: 1px solid #c0c0c0;
 }
 
-/* line 10, ../devWork/github/PTUT_project/style/sass/common.scss */
-.img-fluid {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 /* line 6, ../devWork/github/PTUT_project/style/sass/index.scss */
 #index {
-  background-color: #C4D7ED;
+  background-color: #E1E6FA;
 }
 
 /* line 10, ../devWork/github/PTUT_project/style/sass/index.scss */
 #index .title {
   height: 100px;
   width: 1100px;
+}
+
+/* line 13, ../devWork/github/PTUT_project/style/sass/index.scss */
+#index .title img {
+  width: inherit;
+  height: inherit;
 }
 
 /*# sourceMappingURL=master.css.map */

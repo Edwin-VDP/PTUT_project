@@ -5,11 +5,15 @@
 
 #index
 {
-    background-color: #C4D7ED;
+    background-color: #E1E6FA;
 
     .title {
         height: 100px;
         width: 1100px;
+        img {
+            width: inherit;
+            height: inherit;
+        }
     }
 
     .content {
