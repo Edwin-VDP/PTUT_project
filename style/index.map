@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"sass/index.scss"
+	],
+	"sourcesContent": [
+		"//\r\n// Index style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#index\r\n{\r\n    .title {\r\n        img {\r\n            height: 100px;\r\n            width: 1100px;\r\n        }\r\n    }\r\n\r\n    .content {\r\n\r\n    }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAGQ,MAHF,CAEF,MAAM,CACF,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAChB"
+}
