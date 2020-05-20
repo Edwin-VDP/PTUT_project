@@ -6,7 +6,6 @@
 #index
 {
     background-color: #E1E6FA;
-
     .title {
         height: 100px;
         width: 1100px;
@@ -17,6 +16,10 @@
     }
 
     .content {
-
+        margin: auto;
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
     }
 }

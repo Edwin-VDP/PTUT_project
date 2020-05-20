@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "common.css",
+	"sources": [
+		"sass/common.scss"
+	],
+	"sourcesContent": [
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 4px solid #c0c0c0;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B"
+}
