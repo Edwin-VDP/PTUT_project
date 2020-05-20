@@ -1,3 +1,8 @@
+/* line 6, D:/WEB/PTUT_project/style/sass/common.scss */
+.box {
+  border: 4px solid #c0c0c0;
+}
+
 /* line 6, D:/WEB/PTUT_project/style/sass/index.scss */
 #index {
   background-color: #E1E6FA;
@@ -24,8 +29,6 @@
 #index .content .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=master.css.map */
