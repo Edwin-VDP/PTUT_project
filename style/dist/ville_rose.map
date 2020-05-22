@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "ville_rose.css",
+	"sources": [
+		"../sass/ville_rose.scss"
+	],
+	"sourcesContent": [
+		"//\r\n// Ville rose style sheet\r\n// sass-lang.com\r\n//\r\n\r\n#ville_rose\r\n{\r\n    .menu{\r\n        display: flex;\r\n        flex-direction: row;\r\n    }\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAEI,WAFO,CAEP,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB"
+}
