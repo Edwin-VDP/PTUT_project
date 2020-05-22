@@ -71,8 +71,8 @@
   border: 3px solid #c0c0c0;
 }
 
-/* line 8, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
-#ville_rose .menu {
+/* line 7, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
+#ville_rose .header {
   display: flex;
   flex-direction: row;
 }
