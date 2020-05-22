@@ -1,10 +1,14 @@
 /* line 7, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
 #ville_rose .header {
-  display: flex;
-  flex-direction: row;
+  dislay: flex;
 }
 
-/* line 13, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
+/* line 9, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
+#ville_rose .header a {
+  display: block;
+}
+
+/* line 14, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
 #ville_rose .arrow img {
   width: 50px;
   height: 50px;

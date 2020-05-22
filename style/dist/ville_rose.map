@@ -5,8 +5,8 @@
 		"../sass/ville_rose.scss"
 	],
 	"sourcesContent": [
-		"//\r\n// Ville rose style sheet\r\n// sass-lang.com\r\n//\r\n#ville_rose\r\n{\r\n    .header{\r\n        display: flex;\r\n        flex-direction: row;\r\n    }\r\n\r\n    .arrow{\r\n        img{\r\n            width: 50px;\r\n            height: 50px;\r\n        }\r\n    }\r\n\r\n}"
+		"//\r\n// Ville rose style sheet\r\n// sass-lang.com\r\n//\r\n#ville_rose\r\n{\r\n    .header {\r\n        dislay: flex;\r\n        a {\r\n          display: block;\r\n        }\r\n      }\r\n    .arrow{\r\n        img{\r\n            width: 50px;\r\n            height: 50px;\r\n        }\r\n    }\r\n\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAIA,AAEI,WAFO,CAEP,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB;;;AALL,AAQQ,WARG,CAOP,MAAM,CACF,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf"
+	"mappings": ";AAIA,AAEI,WAFO,CAEP,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;CAIb;;;AAPP,AAIQ,WAJG,CAEP,OAAO,CAEH,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;CACf;;;AANT,AASQ,WATG,CAQP,MAAM,CACF,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf"
 }
