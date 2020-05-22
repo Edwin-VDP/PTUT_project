@@ -1,3 +1,117 @@
+@import "./ville_rose.scss" s;
+/* line 6, D:/WEB/PTUT_project/style/sass/common.scss */
+#ALL {
+  background-image: url(../../assets/toulouse.jpg);
+  background-attachment: fixed;
+}
+
+/* line 11, D:/WEB/PTUT_project/style/sass/common.scss */
+.box-index {
+  border: 3px solid #c0c0c0;
+}
+
+/* line 15, D:/WEB/PTUT_project/style/sass/common.scss */
+.lateral-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  top: 40%;
+  transform: translateY(-50%);
+  border: 3px solid #c0c0c0;
+  background-color: cornsilk;
+  height: 25%;
+  width: 220px;
+}
+
+/* line 27, D:/WEB/PTUT_project/style/sass/common.scss */
+.lateral-nav .button {
+  height: 15px;
+}
+
+/* line 32, D:/WEB/PTUT_project/style/sass/common.scss */
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #c0c0c0;
+  background-color: #C4D7ED;
+  align-items: center;
+  width: 1000px;
+}
+
+/* line 44, D:/WEB/PTUT_project/style/sass/common.scss */
+.header img {
+  width: 300px;
+}
+
+/* line 47, D:/WEB/PTUT_project/style/sass/common.scss */
+.header .buttons {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* line 53, D:/WEB/PTUT_project/style/sass/common.scss */
+.header .button {
+  width: 110px;
+  height: 60px;
+  display: block;
+  border: 3px solid #c0c0c0;
+  text-align: center;
+}
+
+/* line 63, D:/WEB/PTUT_project/style/sass/common.scss */
+.content {
+  border: 3px solid #c0c0c0;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  background-color: #C4D7ED;
+  text-align: justify;
+  padding: 30px 60px;
+}
+
+/* line 74, D:/WEB/PTUT_project/style/sass/common.scss */
+.footer {
+  display: flex;
+}
+
+/* line 76, D:/WEB/PTUT_project/style/sass/common.scss */
+.footer .link {
+  display: block;
+}
+
+/* line 80, D:/WEB/PTUT_project/style/sass/common.scss */
+.arrow {
+  position: fixed;
+  bottom: 2%;
+  right: 6%;
+  width: 150px;
+  height: 150px;
+  /*     background-color: cornsilk;
+    border: 3px solid #c0c0c0; */
+}
+
+/* line 88, D:/WEB/PTUT_project/style/sass/common.scss */
+.arrow .button {
+  width: inherit;
+  height: inherit;
+}
+
+/* line 91, D:/WEB/PTUT_project/style/sass/common.scss */
+.arrow .button img {
+  width: inherit;
+  height: inherit;
+}
+
 /* line 6, D:/WEB/PTUT_project/style/sass/index.scss */
 #index {
   background-image: url("../../assets/toulouse.jpg");
@@ -22,7 +136,7 @@
 }
 
 /* line 24, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content {
+#index .content-index {
   background-color: #C4D7ED;
   margin-left: auto;
   margin-right: auto;
@@ -33,7 +147,7 @@
 }
 
 /* line 33, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .container {
+#index .content-index .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -42,14 +156,14 @@
 }
 
 /* line 34, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .container img {
+#index .content-index .container img {
   width: 675px;
   border: 1px solid gray;
   height: max-content;
 }
 
 /* line 47, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .text {
+#index .content-index .text {
   max-width: 675px;
   text-align: justify;
   font-size: 25px;
@@ -57,34 +171,13 @@
 }
 
 /* line 54, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .access {
+#index .content-index .access {
   margin-bottom: 30px;
   width: fit-content;
   background-color: #DCDCDC;
   border: 2px solid #223645;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* line 6, D:/WEB/PTUT_project/style/sass/common.scss */
-.box-index {
-  border: 3px solid #c0c0c0;
-}
-
-/* line 10, D:/WEB/PTUT_project/style/sass/common.scss */
-.header {
-  display: flex;
-}
-
-/* line 12, D:/WEB/PTUT_project/style/sass/common.scss */
-.header .button {
-  display: block;
-}
-
-/* line 18, D:/WEB/PTUT_project/style/sass/common.scss */
-.arrow img {
-  width: 50px;
-  height: 50px;
 }
 
 /*# sourceMappingURL=master.css.map */

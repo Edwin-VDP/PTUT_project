@@ -3,20 +3,96 @@
 // Common pages elements
 //
 
+#ALL{
+    background-image: url(../../assets/toulouse.jpg);
+    background-attachment: fixed;
+}
+
 .box-index {
     border: 3px solid #c0c0c0;
 }
 
-.header {
+.lateral-nav{
+    position: fixed;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    top: 40%;
+    transform: translateY(-50%);
+    border: 3px solid #c0c0c0;
+    background-color: cornsilk;
+    height: 25%;
+    width: 220px;
+    .button{
+        margin-left: 5;
+        height: 15px;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #c0c0c0;
+    background-color: #C4D7ED;
+    align-items: center;
+    width: 1000px;
+    img{
+        width: 300px;
+    }
+    .buttons{
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .button {
-      display: block;
+        width: 110px;
+        height: 60px;
+        display: block;
+        border: 3px solid #c0c0c0;
+        text-align: center;
+
     }
   }
 
-.arrow{
-    img{
-        width: 50px;
-        height: 50px;
+.content{
+    border: 3px solid #c0c0c0;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    background-color: #C4D7ED;
+    text-align: justify;
+    padding: 30px 60px;
+}
+
+.footer {
+    display: flex;
+    .link{
+        display: block;
     }
+}
+.arrow{
+    position: fixed;
+    bottom: 2%;
+    right : 6%;
+    width: 150px;
+    height: 150px;
+/*     background-color: cornsilk;
+    border: 3px solid #c0c0c0; */
+    .button{
+        width: inherit;
+        height: inherit;
+        img {
+            width: inherit;
+            height: inherit;
+        }
+    }
+    
 }

@@ -22,7 +22,7 @@
 }
 
 /* line 24, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content {
+#index .content-index {
   background-color: #C4D7ED;
   margin-left: auto;
   margin-right: auto;
@@ -33,7 +33,7 @@
 }
 
 /* line 33, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .container {
+#index .content-index .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -42,14 +42,14 @@
 }
 
 /* line 34, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .container img {
+#index .content-index .container img {
   width: 675px;
   border: 1px solid gray;
   height: max-content;
 }
 
 /* line 47, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .text {
+#index .content-index .text {
   max-width: 675px;
   text-align: justify;
   font-size: 25px;
@@ -57,7 +57,7 @@
 }
 
 /* line 54, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content .access {
+#index .content-index .access {
   margin-bottom: 30px;
   width: fit-content;
   background-color: #DCDCDC;
