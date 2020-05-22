@@ -4,4 +4,10 @@
   flex-direction: row;
 }
 
+/* line 13, D:/WEB/PTUT_project/style/sass/ville_rose.scss */
+#ville_rose .arrow img {
+  width: 50px;
+  height: 50px;
+}
+
 /*# sourceMappingURL=ville_rose.css.map */
