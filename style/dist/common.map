@@ -5,8 +5,8 @@
 		"../sass/common.scss"
 	],
 	"sourcesContent": [
-		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box {\r\n    border: 3px solid #c0c0c0;\r\n}\r\n"
+		"//\r\n// Sass file\r\n// Common pages elements\r\n//\r\n\r\n.box-index {\r\n    border: 3px solid #c0c0c0;\r\n}\r\n\r\n.header {\r\n    display: flex;\r\n    .button {\r\n      display: block;\r\n    }\r\n  }\r\n\r\n.arrow{\r\n    img{\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAKA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,iBAAiB;CAC5B"
+	"mappings": ";AAKA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,iBAAiB;CAC5B;;;AAED,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;CAId;;;AALH,AAEI,OAFG,CAEH,OAAO,CAAC;EACN,OAAO,EAAE,KAAK;CACf;;;AAGL,AACI,MADE,CACF,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf"
 }
