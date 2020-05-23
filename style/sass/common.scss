@@ -17,6 +17,9 @@ h5{
     margin-top: 0;
 }
 
+h4{
+    font-weight: normal;
+}
 .anchor{
     display: block;
     height: 100px; /*same height as header*/
@@ -70,7 +73,8 @@ h5{
     align-items: center;
     width: 80%;
     img{
-        width: 300px;
+        max-width: 100%;
+        height: auto;
     }
     
     .buttons{
@@ -79,10 +83,15 @@ h5{
         flex-direction: row;
         justify-content: space-evenly;
         a{
-            transition: background-color 1s ease;
+            transition: background-color 0.75s ease;
+            color: #000000 !important;
+            text-decoration: none !important;
+            font-family: 'Chelsea Market', cursive;
+            font-size: 1.2vw;
+            background-color: #318CE7;
         }
         a:hover{
-            background-color: green;
+            background-color: #049B9A;
         }
     }
     .button {
@@ -142,6 +151,8 @@ h5{
 .footer {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
     display: flex;
     justify-content: space-evenly;
     height: fit-content;
