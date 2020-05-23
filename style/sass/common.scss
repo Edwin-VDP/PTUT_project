@@ -3,13 +3,21 @@
 // Common pages elements
 //
 
-#ALL{
+html{
     background-image: url(../../assets/toulouse.jpg);
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
+#activites{
+    scroll-margin-top: 100px;
+}
 .box-index {
     border: 3px solid #c0c0c0;
+}
+
+.pageActuelle{
+    background-color: aqua;
 }
 
 .lateral-nav{
@@ -25,8 +33,12 @@
     height: 25%;
     width: 220px;
     .button{
-        margin-left: 5;
-        height: 15px;
+        height: inherit;
+        width: 215px;
+        padding-left: 5px;
+    }
+    a:hover{
+        background-color: chocolate;
     }
 }
 
@@ -45,11 +57,15 @@
     img{
         width: 300px;
     }
+    
     .buttons{
         width: inherit;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        a:hover{
+            background-color: red;
+        }
     }
     .button {
         width: 110px;
@@ -70,12 +86,21 @@
     background-color: #C4D7ED;
     text-align: justify;
     padding: 30px 60px;
+    font-size: 25px;
 }
 
 .footer {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    .link{
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 1000px;
+    border: 3px solid #c0c0c0;
+    background-color: #C4D7ED;
+    a{
         display: block;
+        font-size: 20px;
     }
 }
 .arrow{
@@ -84,8 +109,6 @@
     right : 6%;
     width: 150px;
     height: 150px;
-/*     background-color: cornsilk;
-    border: 3px solid #c0c0c0; */
     .button{
         width: inherit;
         height: inherit;
