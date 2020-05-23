@@ -17,6 +17,9 @@ h5{
     margin-top: 0;
 }
 
+body{
+    margin-top: 100px;
+}
 #activites{
     scroll-margin-top: 100px;
 }
@@ -98,11 +101,36 @@ h5{
     align-items: center;
     padding: 30px 60px;
     font-size: 25px;
+
+    
+    a{
+        &:visited{
+            color: blue;
+            &:hover{
+                color: darkblue;
+            }
+        }
+        a:hover{
+        color: darkblue;
+        }
+    }
+
+    .duo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;;
+        img{
+            max-width: 40%;
+        }
+    }
+
     img{
+        border: 1px solid gray;
         display: block;
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
+        
     }
 }
 
@@ -120,7 +148,7 @@ h5{
         font-size: 20px;
     }
     a:hover{
-        color: black;
+        color: darkblue;    
     }
 }
 
