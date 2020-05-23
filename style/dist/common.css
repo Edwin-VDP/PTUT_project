@@ -22,9 +22,9 @@ h4 {
 /* line 23, D:/WEB/PTUT_project/style/sass/common.scss */
 .anchor {
   display: block;
-  height: 100px;
+  height: 120px;
   /*same height as header*/
-  margin-top: -100px;
+  margin-top: -120px;
   /*same height as header*/
   visibility: hidden;
 }
@@ -56,19 +56,22 @@ h4 {
 
 /* line 50, D:/WEB/PTUT_project/style/sass/common.scss */
 .lateral-nav .button {
+  transition: background-color 0.5s ease;
   display: flex;
   align-items: center;
   height: inherit;
   width: 215px;
   padding-left: 5px;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 0.8vw;
 }
 
-/* line 57, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 60, D:/WEB/PTUT_project/style/sass/common.scss */
 .lateral-nav a:hover {
   background-color: chocolate;
 }
 
-/* line 62, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 65, D:/WEB/PTUT_project/style/sass/common.scss */
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -84,13 +87,13 @@ h4 {
   width: 80%;
 }
 
-/* line 75, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 78, D:/WEB/PTUT_project/style/sass/common.scss */
 .header img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 80, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 83, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons {
   width: inherit;
   display: flex;
@@ -98,7 +101,7 @@ h4 {
   justify-content: space-evenly;
 }
 
-/* line 85, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 88, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons a {
   transition: background-color 0.75s ease;
   color: #000000 !important;
@@ -108,12 +111,12 @@ h4 {
   background-color: #318CE7;
 }
 
-/* line 93, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 96, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons a:hover {
   background-color: #049B9A;
 }
 
-/* line 97, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 100, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .button {
   display: flex;
   align-items: center;
@@ -123,13 +126,13 @@ h4 {
   border: 3px solid #c0c0c0;
 }
 
-/* line 107, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 110, D:/WEB/PTUT_project/style/sass/common.scss */
 .content {
   border: 3px solid #c0c0c0;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 60%;
   background-color: #C4D7ED;
   text-align: justify;
   align-items: center;
@@ -137,34 +140,34 @@ h4 {
   font-size: 25px;
 }
 
-/* line 121, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 124, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a:visited {
   color: blue;
 }
 
-/* line 123, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 126, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a:visited:hover {
   color: darkblue;
 }
 
-/* line 127, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 130, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a a:hover {
   color: darkblue;
 }
 
-/* line 132, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 135, D:/WEB/PTUT_project/style/sass/common.scss */
 .content .duo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-/* line 136, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 139, D:/WEB/PTUT_project/style/sass/common.scss */
 .content .duo img {
   max-width: 40%;
 }
 
-/* line 141, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 144, D:/WEB/PTUT_project/style/sass/common.scss */
 .content img {
   border: 1px solid gray;
   display: block;
@@ -173,7 +176,7 @@ h4 {
   margin-right: auto;
 }
 
-/* line 151, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 154, D:/WEB/PTUT_project/style/sass/common.scss */
 .footer {
   margin-left: auto;
   margin-right: auto;
@@ -187,18 +190,18 @@ h4 {
   background-color: #C4D7ED;
 }
 
-/* line 162, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 165, D:/WEB/PTUT_project/style/sass/common.scss */
 .footer a {
   display: block;
   font-size: 20px;
 }
 
-/* line 166, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 169, D:/WEB/PTUT_project/style/sass/common.scss */
 .footer a:hover {
   color: darkblue;
 }
 
-/* line 171, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 174, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow {
   position: fixed;
   bottom: 2%;
@@ -207,13 +210,13 @@ h4 {
   height: 150px;
 }
 
-/* line 177, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 180, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button {
   width: inherit;
   height: inherit;
 }
 
-/* line 180, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 183, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button img {
   width: inherit;
   height: inherit;
