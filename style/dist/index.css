@@ -1,10 +1,4 @@
-/* line 6, D:/WEB/PTUT_project/style/sass/index.scss */
-#index {
-  background-image: url("../../assets/toulouse.jpg");
-  background-size: cover;
-}
-
-/* line 10, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 8, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .title {
   background-color: #C4D7ED;
   margin-left: auto;
@@ -15,13 +9,13 @@
   width: 1100px;
 }
 
-/* line 18, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 16, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .title img {
   width: inherit;
   height: inherit;
 }
 
-/* line 24, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 22, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index {
   background-color: #C4D7ED;
   margin-left: auto;
@@ -32,7 +26,7 @@
   font-family: "Raleway";
 }
 
-/* line 33, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 31, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .container {
   display: flex;
   flex-direction: row;
@@ -41,14 +35,14 @@
   margin-bottom: 10px;
 }
 
-/* line 34, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 32, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .container img {
   width: 675px;
   border: 1px solid gray;
   height: max-content;
 }
 
-/* line 47, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 45, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .text {
   max-width: 675px;
   text-align: justify;
@@ -56,7 +50,7 @@
   font-family: "OpenSans";
 }
 
-/* line 54, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 52, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .access {
   margin-bottom: 30px;
   width: fit-content;

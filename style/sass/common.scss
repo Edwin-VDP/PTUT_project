@@ -6,7 +6,15 @@
 html{
     background-image: url(../../assets/toulouse.jpg);
     background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     scroll-behavior: smooth;
+}
+
+h5{
+    font-weight: normal;
+    margin-top: 0;
 }
 
 #activites{
@@ -26,13 +34,15 @@ html{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
     border: 3px solid #c0c0c0;
     background-color: cornsilk;
-    height: 25%;
+    height: 50%;
     width: 220px;
     .button{
+        display: flex;
+        align-items: center;
         height: inherit;
         width: 215px;
         padding-left: 5px;
@@ -53,7 +63,7 @@ html{
     border: 3px solid #c0c0c0;
     background-color: #C4D7ED;
     align-items: center;
-    width: 1000px;
+    width: 80%;
     img{
         width: 300px;
     }
@@ -68,8 +78,8 @@ html{
         }
     }
     .button {
-        width: 110px;
-        height: 60px;
+        width: 20%;
+        height: 3em;
         display: block;
         border: 3px solid #c0c0c0;
         text-align: center;
@@ -82,11 +92,18 @@ html{
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    width: 980px;
+    width: 65%;
     background-color: #C4D7ED;
     text-align: justify;
+    align-items: center;
     padding: 30px 60px;
     font-size: 25px;
+    img{
+        display: block;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .footer {
@@ -95,18 +112,22 @@ html{
     display: flex;
     justify-content: space-evenly;
     height: fit-content;
-    width: 1000px;
+    width: 60%;
     border: 3px solid #c0c0c0;
     background-color: #C4D7ED;
     a{
         display: block;
         font-size: 20px;
     }
+    a:hover{
+        color: black;
+    }
 }
+
 .arrow{
     position: fixed;
     bottom: 2%;
-    right : 6%;
+    right : 0;
     width: 150px;
     height: 150px;
     .button{
