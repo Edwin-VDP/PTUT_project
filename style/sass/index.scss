@@ -52,10 +52,14 @@
     .access{
         margin-bottom: 30px;
         width: fit-content;
+        height: fit-content;
         background-color: #DCDCDC;
         border: 2px solid #223645;
         margin-left: auto;
         margin-right: auto;
+        img{
+            display: flex;
+        }
     }
     }
 }

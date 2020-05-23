@@ -19,8 +19,8 @@ h5{
 
 .anchor{
     display: block;
-    height: 180px; /*same height as header*/
-    margin-top: -180px; /*same height as header*/
+    height: 100px; /*same height as header*/
+    margin-top: -100px; /*same height as header*/
     visibility: hidden;
   }
 
@@ -57,10 +57,11 @@ h5{
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: -webkit-sticky;
+    position: sticky;
+    top : 0 ;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -93,7 +94,7 @@ h5{
 
 .content{
     border: 3px solid #c0c0c0;
-    margin-top: 150px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 65%;

@@ -54,10 +54,16 @@
 #index .content-index .access {
   margin-bottom: 30px;
   width: fit-content;
+  height: fit-content;
   background-color: #DCDCDC;
   border: 2px solid #223645;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* line 60, D:/WEB/PTUT_project/style/sass/index.scss */
+#index .content-index .access img {
+  display: flex;
 }
 
 /*# sourceMappingURL=index.css.map */
