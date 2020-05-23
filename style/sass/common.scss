@@ -17,12 +17,13 @@ h5{
     margin-top: 0;
 }
 
-body{
-    margin-top: 100px;
-}
-#activites{
-    scroll-margin-top: 100px;
-}
+.anchor{
+    display: block;
+    height: 180px; /*same height as header*/
+    margin-top: -180px; /*same height as header*/
+    visibility: hidden;
+  }
+
 .box-index {
     border: 3px solid #c0c0c0;
 }
