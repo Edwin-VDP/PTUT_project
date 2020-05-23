@@ -78,17 +78,20 @@ h5{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        a{
+            transition: background-color 1s ease;
+        }
         a:hover{
-            background-color: red;
+            background-color: green;
         }
     }
     .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 20%;
         height: 3em;
-        display: block;
         border: 3px solid #c0c0c0;
-        text-align: center;
-
     }
   }
 
