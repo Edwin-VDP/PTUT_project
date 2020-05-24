@@ -116,10 +116,35 @@
 
         <div class="footer"> <!-- FOOTER -->
             <div class="link">
-            <a href="qui_sommes_nous"><div></div>Qui sommes nous ?</div></a>
-            <a href="nous_contacter"><div>Nous contacter</div></a>
-            <a href="aidez_nous"><div>Aidez nous</div></a>
+                <div class="popup" onclick="myFunction()">Qui sommes nous ?
+                    <span class="popuptext" id="myPopup">
+                        Etudiants à l’IUT Informatique de Toulouse, nous avons du réaliser, pour nos études, un WebDoc. Natifs et résident de cette ville, nous voulions mettre en avant la patrimoine culturel en regroupant les principaux lieux clés de la capitale du Sud-Ouest.<br>
+                        En vous souhaitant une bonne découverte et à très vite dans une des plus belle ville de France.
+                    </span>
+                </div>
+                <div class="popup" onclick="myFunction()">Nous contacter
+                    <span class="popuptext" id="myPopup">
+                        Site web : edwin.van-de-plasse@etu.iut-tlse3.fr<br>
+                        Recherche et contenu :<br>
+                         - dorian.biabiani@etu.iut-tlse3.fr<br>
+                         - arnaud.darrestieu@etu.iut-tlse3.fr<br>
+                         - gauthier.laluyaux@etu.iut-tlse3.fr
+                    </span>
+                </div>
+                <div class="popup" onclick="myFunction()">Aidez nous
+                    <span class="popuptext" id="myPopup">
+                        Pour toute amélioration à apporter : edwin.van-de-plasse@etu.iut-tlse3.fr
+                    </span>
+                </div>
             </div>
+
+            <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
         </div>
 
     </body>

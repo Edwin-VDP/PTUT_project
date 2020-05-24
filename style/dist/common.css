@@ -181,26 +181,21 @@ html {
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 1%;
-  display: flex;
-  justify-content: space-evenly;
   height: fit-content;
   width: 60%;
   border: 3px solid #c0c0c0;
   background-color: #C4D7ED;
 }
 
-/* line 162, D:/WEB/PTUT_project/style/sass/common.scss */
-.footer a {
-  display: block;
-  font-size: 20px;
+/* line 160, D:/WEB/PTUT_project/style/sass/common.scss */
+.footer .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1vw;
 }
 
-/* line 166, D:/WEB/PTUT_project/style/sass/common.scss */
-.footer a:hover {
-  color: darkblue;
-}
-
-/* line 171, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 168, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow {
   position: fixed;
   bottom: 2%;
@@ -209,16 +204,70 @@ html {
   height: 150px;
 }
 
-/* line 177, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 174, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button {
   width: inherit;
   height: inherit;
 }
 
-/* line 180, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 177, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button img {
   width: inherit;
   height: inherit;
+}
+
+/* Popup container - can be anything you want */
+/* line 186, D:/WEB/PTUT_project/style/sass/common.scss */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+/* line 197, D:/WEB/PTUT_project/style/sass/common.scss */
+.popup .popuptext {
+  visibility: hidden;
+  width: 500%;
+  background-color: #555;
+  color: #fff;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 8px 8px;
+  position: absolute;
+  bottom: 125%;
+  left: 30%;
+}
+
+/* Toggle this class - hide and show the popup */
+/* line 211, D:/WEB/PTUT_project/style/sass/common.scss */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
