@@ -15,23 +15,86 @@
             <a href="../index.html"><img src="../assets/logo.png" alt="Toulouse le temps d'un week-end"></a>
             <div class="buttons">
                 <a class="button" href="./ville_rose.html"><div><h4>La ville rose</h4></div></a>
-                <a class="button pageActuelle" href="./activites.html"><div><h4>Activités</h4></div></a>
+                <a class="button" href="./activites.html"><div><h4>Nos activités</h4></div></a>
                 <a class="button" href="./laissez_nous_faire.html"><div><h4>Laissez nous faire</h4></div></a>
-                <a class="button" href="./conseils.html"><div><h4>Conseils</h4></div></a>
+                <a class="button pageActuelle" href="./conseils.html"><div><h4>Conseils</h4></div></a>
             </div>
         </div>
 
-        <div class="lateral-nav"> <!--NAVIGATION BAR-->
-            <a id="Titre1" class="button" href="#section1"><div>PLACE DU CAPITOLE</div></a>
-            <a id="Titre2" class="button" href="#section2"><div>QUAI DE LA DAURADE</div></a>
-            <a id="Titre3" class="button" href="#section3"><div>PRAIRIE DES FILTRES</div></a>
-            <a id="Titre4" class="button" href="#section4"><div>BAZACLE</div></a>
-            <a id="Titre5" class="button" href="#section5"><div>MUSEE ST RAYMOND</div></a>
-            <a id="Titre6" class="button" href="#section6"><div>COUVENT DES JACOBINS</div></a>
-            <a id="Titre7" class="button" href="#section7"><div>JARDIN DES PLANTES</div></a>
-        </div>
-
         <div class="content"> <!--CONTENTS-->
+            <p class="title">Nos conseils utile <br></p>
+            <p class="text">Étant un ville dynamique et attractive, Toulouse est une ville très bien desservie. Possédant deux lignes de métro, deux lignes de tram et plus de 70 lignes de bus, impossible de ne pas aller aux endroits que vous souhaitez découvrir.
+            Avec des tarifs variés s’adaptant au mieux à vos besoins, rien ne sera plus agréable que de se déplacer dans la ville rose.<br><br>
+             Tarifs : (métro, tram, bus)*<br></p>
+            <table summary="Tableau des tarifs">
+                <caption>Tableau des tarifs</caption>
+              
+                <tr>
+                  <th>Durée</th>
+                  <th>Tarif</th>
+                </tr>
+              
+                <tr>
+                  <td>3 jours</td>
+                  <td>12.20€</td>
+                </tr>
+              
+                <tr>
+                  <td>Journée</td>
+                  <td>6.10€</td>
+                </tr>
+
+                  <tr>
+                    <td>Ticket Tribu (12 trajets)</td>
+                    <td>8,20€</td>
+                  </tr>
+
+                  
+                  <tr>
+                    <td>10 déplacements</td>
+                    <td>13,70€</td>
+                  </tr>
+
+                  
+                  <tr>
+                    <td>1 déplacement</td>
+                    <td>1,70€</td>
+                  </tr>
+
+                  
+                  <tr>
+                    <td>1 déplacement dernière minute</td>
+                    <td>2,00€</td>
+                  </tr>
+
+                  
+            </table>
+
+            <p class="text">Ces titres de transports sont disponibles en agences Tisséo (Aéroport, Arènes, Balma-Gramont, Basso Cambo, Borderouge, Jean Jaurès, Marengo-SNCF), à l’entrée des bouches de métro, au station de tram, dans certains bureaux de tabac et les déplacements dernière minute sont disponibles directement auprès des chauffeurs de bus.<br>
+            <p style="font-weight: bold;">Plus d’infos sur : <a href="https://www.tisseo.fr/" target="_blank"> Tisseo.fr</a><br><br></p></p>
+
+            <p class="title">Vous arrivez à Toulouse en avion ? Rien de plus simple…<br></p>
+
+            <p class="text">Le terminus du tram se situe juste en face de l’aéroport. Montez dans un tram et rejoignez le centre ville en 30min.<br><br></p>
+
+            <p class="title">Vous arrivez à Toulouse en train ? Rien de plus simple…<br></p>
+
+            <p class="text">Un accès à la station de métro Marengo-SNCF peut se faire directement de la gare. Prenez la ligne B direction Ramonville et soyez en ville en moins de 3min.<br><br></p>
+
+            <p class="title">Vous arrivez à Toulouse en voiture ? Rien de plus simple…<br></p>
+
+            <p class="text">Des parkings gratuits sont disponibles à chaque terminus de métro de la ville (Basso Cambo, Balma-Gramont, Borderouge et Ramonville). Vous pouvez trouvez des parkings, payants, en centre ville afin d’éviter les transports en communs (Indigo).<br><br></p>
+
+
+            <p class="title">Vous voulez éviter les transports en communs ? Pas de problèmes…<br></p>
+
+            <p class="text">Des bornes vélib sont placées partout en ville. Louez votre vélib pour la journée ou pour la semaine à des petits prix.<br><br></p>
+
+            <p class="title">L’application Tisséo ?<br></p>
+
+            <p class="text">Pas envie de perdre du temps à savoir quel bus peut vous emmenez à votre destination ? L’application va vous faire gagner du temps. <br>Calcul d’itinéraires, horaires de passage, perturbations sur le service… Disponible sur le PlayStore et l’AppStore.<br><br></p>
+            
+            <p class="annotation"> *ces tarifs sont susceptibles de varier </p>
         </div>
 
 <!--         <div class="sticky-note">
@@ -43,12 +106,37 @@
         </div>
 
         <div class="footer"> <!-- FOOTER -->
-            <div class="link">
-            <a href="qui_sommes_nous"><div></div>Qui sommes nous ?</div></a>
-            <a href="nous_contacter"><div>Nous contacter</div></a>
-            <a href="aidez_nous"><div>Aidez nous</div></a>
-            </div>
+          <div class="link">
+              <div class="popup" onclick="myFunction()">Qui sommes nous ?
+                  <span class="popuptext" id="myPopup">
+                      Etudiants à l’IUT Informatique de Toulouse, nous avons du réaliser, pour nos études, un WebDoc. Natifs et résident de cette ville, nous voulions mettre en avant la patrimoine culturel en regroupant les principaux lieux clés de la capitale du Sud-Ouest.<br>
+                      En vous souhaitant une bonne découverte et à très vite dans une des plus belle ville de France.<br><br>
+                      Site web :<br> 
+                      - edwin.van-de-plasse@etu.iut-tlse3.fr<br>
+                     Recherche et contenu :<br>
+                      - dorian.biabiani@etu.iut-tlse3.fr<br>
+                      - arnaud.darrestieu@etu.iut-tlse3.fr<br>
+                      - gauthier.laluyaux@etu.iut-tlse3.fr<br><br>
+                      Pour toute amélioration à apporter : edwin.van-de-plasse@etu.iut-tlse3.fr
+                  </span>
+              </div>
+              <div class="popup" onclick="myFunction()">Nous contacter
+                  <span class="popuptext" id="myPopup">                    </span>
+              </div>
+              <div class="popup" onclick="myFunction()">Aidez nous
+                  <span class="popuptext" id="myPopup">                    </span>
+              </div>
+          </div>
+
+            <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
         </div>
+
 
     </body>
 </html>

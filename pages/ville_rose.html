@@ -14,24 +14,18 @@
         <div class="header"> <!--HEADER-->
             <a href="../index.html"><img src="../assets/logo.png" alt="Toulouse le temps d'un week-end"></a>
             <div class="buttons">
-                <a class="button" href="./ville_rose.html"><div><h4>La ville rose</h4></div></a>
-                <a class="button pageActuelle" href="./activites.html"><div><h4>Activités</h4></div></a>
+                <a class="button pageActuelle" href="./ville_rose.html"><div><h4>La ville rose</h4></div></a>
+                <a class="button" href="./activites.html"><div><h4>Nos activités</h4></div></a>
                 <a class="button" href="./laissez_nous_faire.html"><div><h4>Laissez nous faire</h4></div></a>
                 <a class="button" href="./conseils.html"><div><h4>Conseils</h4></div></a>
             </div>
         </div>
 
-        <div class="lateral-nav"> <!--NAVIGATION BAR-->
-            <a id="Titre1" class="button" href="#section1"><div>PLACE DU CAPITOLE</div></a>
-            <a id="Titre2" class="button" href="#section2"><div>QUAI DE LA DAURADE</div></a>
-            <a id="Titre3" class="button" href="#section3"><div>PRAIRIE DES FILTRES</div></a>
-            <a id="Titre4" class="button" href="#section4"><div>BAZACLE</div></a>
-            <a id="Titre5" class="button" href="#section5"><div>MUSEE ST RAYMOND</div></a>
-            <a id="Titre6" class="button" href="#section6"><div>COUVENT DES JACOBINS</div></a>
-            <a id="Titre7" class="button" href="#section7"><div>JARDIN DES PLANTES</div></a>
-        </div>
 
         <div class="content"> <!--CONTENTS-->
+            <p class="text">Avec 479 553 habitants en 2017 Toulouse est la quatrième ville la plus peuplé de France après Paris, Marseille et Lyon.  Aussi connu sous le nom de la « ville rose » ( a cause de la couleur de ses bâtiments allant du rose léger à l’orange soutenu) c’est une commune du sud-ouest de la France et capitale de la région Occitanie (région crée suite à une réforme territorial en 2014 regroupant les anciennes région Languedoc-Roussillon et Midi-Pyrénées) qui est la troisième plus vaste région de France après la Nouvelle-Aquitaine et la Guyane. A cause de la culture de la violette de Toulouse au XIXe siècle elle a aussi eu droit au surnom de la « cité des violettes ».Elle est aussi une importante ville étudiante : l'université accueille plus de 132 400 étudiants.
+            La ville est dotée d'institutions culturelles de prestige et d'équipements récents.
+            Terre de rugby, Toulouse est dominée par ce sport emblématique avec le célèbre club du Stade toulousain.</p>
         </div>
 
 <!--         <div class="sticky-note">
@@ -44,11 +38,36 @@
 
         <div class="footer"> <!-- FOOTER -->
             <div class="link">
-            <a href="qui_sommes_nous"><div></div>Qui sommes nous ?</div></a>
-            <a href="nous_contacter"><div>Nous contacter</div></a>
-            <a href="aidez_nous"><div>Aidez nous</div></a>
+                <div class="popup" onclick="myFunction()">Qui sommes nous ?
+                    <span class="popuptext" id="myPopup">
+                        Etudiants à l’IUT Informatique de Toulouse, nous avons du réaliser, pour nos études, un WebDoc. Natifs et résident de cette ville, nous voulions mettre en avant la patrimoine culturel en regroupant les principaux lieux clés de la capitale du Sud-Ouest.<br>
+                        En vous souhaitant une bonne découverte et à très vite dans une des plus belle ville de France.<br><br>
+                        Site web :<br> 
+                        - edwin.van-de-plasse@etu.iut-tlse3.fr<br>
+                       Recherche et contenu :<br>
+                        - dorian.biabiani@etu.iut-tlse3.fr<br>
+                        - arnaud.darrestieu@etu.iut-tlse3.fr<br>
+                        - gauthier.laluyaux@etu.iut-tlse3.fr<br><br>
+                        Pour toute amélioration à apporter : edwin.van-de-plasse@etu.iut-tlse3.fr
+                    </span>
+                </div>
+                <div class="popup" onclick="myFunction()">Nous contacter
+                    <span class="popuptext" id="myPopup">                    </span>
+                </div>
+                <div class="popup" onclick="myFunction()">Aidez nous
+                    <span class="popuptext" id="myPopup">                    </span>
+                </div>
             </div>
+
+            <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
         </div>
+
 
     </body>
 </html>

@@ -9,48 +9,60 @@
         background-color: #C4D7ED;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 2%;
+        margin-top: 2%;
         height: 100px;
-        width: 1100px;
+        width: max-content;
         img {
             width: inherit;
             height: inherit;
         }
     }
 
+    h2{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
     .content-index{
         background-color: #C4D7ED;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        max-width: 1500px;
-        font-size: 35px;
+        width: 90%;
+        font-size: 3vw;
         font-family: "Raleway";
 
     .container {
-        img{
-            width: 675px;
-            border: 1px solid gray;
-            height: max-content;
-        }
-
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         margin-bottom: 10px;
         }
+    .main-picture{
+        max-width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
 
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            width:100%;
+            border: 1px solid gray;
+            height: auto;
+        }
+    }
     .text{
-        max-width: 675px;
+        max-width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         text-align: justify;
-        font-size: 25px;
+        font-size: 1.5vw;
         font-family: "OpenSans";
     }
 
     .access{
-        margin-bottom: 30px;
+        margin-bottom: 2%;
         width: fit-content;
         height: fit-content;
         background-color: #DCDCDC;
@@ -63,7 +75,7 @@
         }
     }
     .access:hover{
-        background-color: #66858D;
+        background-color: #5EB6DD;
     }
     }
 }

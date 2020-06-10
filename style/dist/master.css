@@ -11,15 +11,22 @@ html {
 
 /* line 14, D:/WEB/PTUT_project/style/sass/common.scss */
 .title {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
+  font-weight: bold;
 }
 
-/* line 17, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 18, D:/WEB/PTUT_project/style/sass/common.scss */
 .text {
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 
-/* line 20, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 22, D:/WEB/PTUT_project/style/sass/common.scss */
+.annotation {
+  font-size: 1vw;
+  font-style: italic;
+}
+
+/* line 27, D:/WEB/PTUT_project/style/sass/common.scss */
 .anchor {
   display: block;
   height: 120px;
@@ -29,17 +36,17 @@ html {
   visibility: hidden;
 }
 
-/* line 27, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 34, D:/WEB/PTUT_project/style/sass/common.scss */
 .box-index {
   border: 3px solid #c0c0c0;
 }
 
-/* line 31, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 38, D:/WEB/PTUT_project/style/sass/common.scss */
 .pageActuelle {
-  background-color: aqua;
+  background-color: #5EB6DD !important;
 }
 
-/* line 35, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 42, D:/WEB/PTUT_project/style/sass/common.scss */
 .lateral-nav {
   position: fixed;
   display: flex;
@@ -51,27 +58,29 @@ html {
   border: 3px solid #c0c0c0;
   background-color: cornsilk;
   height: 50%;
-  width: 220px;
+  width: 14%;
 }
 
-/* line 47, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 54, D:/WEB/PTUT_project/style/sass/common.scss */
 .lateral-nav .button {
+  color: #000000 !important;
+  text-decoration: none !important;
   transition: background-color 0.5s ease;
   display: flex;
   align-items: center;
   height: inherit;
-  width: 215px;
+  width: 98%;
   padding-left: 5px;
   font-family: 'Chelsea Market', cursive;
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 
-/* line 57, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 66, D:/WEB/PTUT_project/style/sass/common.scss */
 .lateral-nav a:hover {
   background-color: chocolate;
 }
 
-/* line 62, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 71, D:/WEB/PTUT_project/style/sass/common.scss */
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -87,13 +96,13 @@ html {
   width: 80%;
 }
 
-/* line 75, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 84, D:/WEB/PTUT_project/style/sass/common.scss */
 .header img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 80, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 89, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons {
   width: inherit;
   display: flex;
@@ -101,7 +110,7 @@ html {
   justify-content: space-evenly;
 }
 
-/* line 85, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 94, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons a {
   transition: background-color 0.75s ease;
   color: #000000 !important;
@@ -111,12 +120,12 @@ html {
   background-color: #318CE7;
 }
 
-/* line 93, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 102, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .buttons a:hover {
   background-color: #049B9A;
 }
 
-/* line 97, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 106, D:/WEB/PTUT_project/style/sass/common.scss */
 .header .button {
   display: flex;
   align-items: center;
@@ -126,7 +135,7 @@ html {
   border: 3px solid #c0c0c0;
 }
 
-/* line 107, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 116, D:/WEB/PTUT_project/style/sass/common.scss */
 .content {
   border: 3px solid #c0c0c0;
   margin-top: 30px;
@@ -140,34 +149,34 @@ html {
   font-size: 25px;
 }
 
-/* line 121, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 130, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a:visited {
   color: blue;
 }
 
-/* line 123, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 132, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a:visited:hover {
   color: darkblue;
 }
 
-/* line 127, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 136, D:/WEB/PTUT_project/style/sass/common.scss */
 .content a a:hover {
   color: darkblue;
 }
 
-/* line 132, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 141, D:/WEB/PTUT_project/style/sass/common.scss */
 .content .duo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-/* line 136, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 145, D:/WEB/PTUT_project/style/sass/common.scss */
 .content .duo img {
   max-width: 40%;
 }
 
-/* line 141, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 150, D:/WEB/PTUT_project/style/sass/common.scss */
 .content img {
   border: 1px solid gray;
   display: block;
@@ -176,7 +185,7 @@ html {
   margin-right: auto;
 }
 
-/* line 151, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 160, D:/WEB/PTUT_project/style/sass/common.scss */
 .footer {
   margin-left: auto;
   margin-right: auto;
@@ -188,15 +197,15 @@ html {
   background-color: #C4D7ED;
 }
 
-/* line 160, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 169, D:/WEB/PTUT_project/style/sass/common.scss */
 .footer .link {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
-/* line 168, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 177, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow {
   position: fixed;
   bottom: 2%;
@@ -205,20 +214,20 @@ html {
   height: 150px;
 }
 
-/* line 174, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 183, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button {
   width: inherit;
   height: inherit;
 }
 
-/* line 177, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 186, D:/WEB/PTUT_project/style/sass/common.scss */
 .arrow .button img {
   width: inherit;
   height: inherit;
 }
 
 /* Popup container - can be anything you want */
-/* line 186, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 195, D:/WEB/PTUT_project/style/sass/common.scss */
 .popup {
   position: relative;
   display: inline-block;
@@ -230,22 +239,23 @@ html {
 }
 
 /* The actual popup */
-/* line 197, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 206, D:/WEB/PTUT_project/style/sass/common.scss */
 .popup .popuptext {
   visibility: hidden;
-  width: 500%;
+  width: 600%;
   background-color: #555;
   color: #fff;
+  font-size: 1vw;
   text-align: justify;
   border-radius: 6px;
   padding: 8px 8px;
   position: absolute;
   bottom: 125%;
-  left: 50%;
+  left: -100%;
 }
 
 /* Toggle this class - hide and show the popup */
-/* line 211, D:/WEB/PTUT_project/style/sass/common.scss */
+/* line 221, D:/WEB/PTUT_project/style/sass/common.scss */
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
@@ -271,15 +281,49 @@ html {
   }
 }
 
+/* line 238, D:/WEB/PTUT_project/style/sass/common.scss */
+table {
+  border: medium solid #6495ed;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 246, D:/WEB/PTUT_project/style/sass/common.scss */
+th {
+  font-family: monospace;
+  border: thin solid #6495ed;
+  width: 70%;
+  padding: 5px;
+  background-color: #D0E3FA;
+  background-image: url(sky.jpg);
+}
+
+/* line 255, D:/WEB/PTUT_project/style/sass/common.scss */
+td {
+  font-family: sans-serif;
+  border: thin solid #6495ed;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* line 264, D:/WEB/PTUT_project/style/sass/common.scss */
+caption {
+  font-family: sans-serif;
+}
+
 /* line 8, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .title {
   background-color: #C4D7ED;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 2%;
+  margin-top: 2%;
   height: 100px;
-  width: 1100px;
+  width: max-content;
 }
 
 /* line 16, D:/WEB/PTUT_project/style/sass/index.scss */
@@ -289,17 +333,23 @@ html {
 }
 
 /* line 22, D:/WEB/PTUT_project/style/sass/index.scss */
+#index h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* line 26, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index {
   background-color: #C4D7ED;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 1500px;
-  font-size: 35px;
+  width: 90%;
+  font-size: 3vw;
   font-family: "Raleway";
 }
 
-/* line 31, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 35, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .container {
   display: flex;
   flex-direction: row;
@@ -308,24 +358,35 @@ html {
   margin-bottom: 10px;
 }
 
-/* line 32, D:/WEB/PTUT_project/style/sass/index.scss */
-#index .content-index .container img {
-  width: 675px;
-  border: 1px solid gray;
-  height: max-content;
+/* line 42, D:/WEB/PTUT_project/style/sass/index.scss */
+#index .content-index .main-picture {
+  max-width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
-/* line 45, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 47, D:/WEB/PTUT_project/style/sass/index.scss */
+#index .content-index .main-picture img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 1px solid gray;
+  height: auto;
+}
+
+/* line 55, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .text {
-  max-width: 675px;
+  max-width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   text-align: justify;
-  font-size: 25px;
+  font-size: 1.5vw;
   font-family: "OpenSans";
 }
 
-/* line 52, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 64, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .access {
-  margin-bottom: 30px;
+  margin-bottom: 2%;
   width: fit-content;
   height: fit-content;
   background-color: #DCDCDC;
@@ -335,14 +396,14 @@ html {
   transition: background-color 0.5s ease;
 }
 
-/* line 61, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 73, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .access img {
   display: flex;
 }
 
-/* line 65, D:/WEB/PTUT_project/style/sass/index.scss */
+/* line 77, D:/WEB/PTUT_project/style/sass/index.scss */
 #index .content-index .access:hover {
-  background-color: #66858D;
+  background-color: #5EB6DD;
 }
 
 /*# sourceMappingURL=master.css.map */

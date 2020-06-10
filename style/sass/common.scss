@@ -12,11 +12,18 @@ html{
     scroll-behavior: smooth;
 }
 .title{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+    font-weight: bold;
 }
 .text{
-    font-size: 1vw;
+    font-size: 1.4vw;
 }
+
+.annotation{
+    font-size: 1vw;
+    font-style: italic;
+}
+
 .anchor{
     display: block;
     height: 120px; /*same height as header*/
@@ -29,7 +36,7 @@ html{
 }
 
 .pageActuelle{
-    background-color: aqua;
+    background-color: #5EB6DD !important;
 }
 
 .lateral-nav{
@@ -43,16 +50,18 @@ html{
     border: 3px solid #c0c0c0;
     background-color: cornsilk;
     height: 50%;
-    width: 220px;
+    width: 14%;
     .button{
+        color: #000000 !important;
+        text-decoration: none !important;
         transition: background-color 0.5s ease;
         display: flex;
         align-items: center;
         height: inherit;
-        width: 215px;
+        width: 98%;
         padding-left: 5px;
         font-family: 'Chelsea Market', cursive;
-        font-size: 0.8vw;
+        font-size: 1vw;
     }
     a:hover{
         background-color: chocolate;
@@ -161,7 +170,7 @@ html{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 }
 
@@ -196,15 +205,16 @@ html{
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 500%;
+    width: 600%;
     background-color: #555;
     color: #fff;
+    font-size: 1vw;
     text-align: justify;
     border-radius: 6px;
     padding: 8px 8px;
     position: absolute;
     bottom: 125%;
-    left: 50%;
+    left: -100%;
   }
   
   /* Toggle this class - hide and show the popup */
@@ -224,3 +234,33 @@ html{
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-family: monospace;
+    border: thin solid #6495ed;
+    width: 70%;
+    padding: 5px;
+    background-color: #D0E3FA;
+    background-image: url(sky.jpg);
+}
+
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+caption {
+    font-family: sans-serif;
+}
