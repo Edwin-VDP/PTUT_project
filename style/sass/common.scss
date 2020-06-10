@@ -64,7 +64,7 @@ html{
         font-size: 1vw;
     }
     a:hover{
-        background-color: chocolate;
+        background-color: #B09F91;
     }
 }
 
@@ -100,7 +100,7 @@ html{
             background-color: #318CE7;
         }
         a:hover{
-            background-color: #049B9A;
+            background-color: #375D81;
         }
     }
     .button {
@@ -147,6 +147,22 @@ html{
         }
     }
 
+    .trio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;;
+        img{
+            max-width: 30% !important;
+        }
+    }
+    img{
+        border: 1px solid gray;
+        display: block;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
 }
 
 .footer {
@@ -256,38 +272,3 @@ td {
 caption {
     font-family: sans-serif;
 }
-
-* {box-sizing: border-box}
-.container-img {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-  }
-  
-  /* Make the image to responsive */
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  /* The overlay effect - lays on top of the container and over the image */
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* When you mouse over the container, fade in the overlay title */
-  .container-img:hover .overlay {
-    opacity: 1;
-  }
