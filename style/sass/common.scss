@@ -45,7 +45,7 @@ html{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    top: 45%;
+    top: 50%;
     transform: translateY(-50%);
     border: 3px solid #c0c0c0;
     background-color: cornsilk;
@@ -147,14 +147,6 @@ html{
         }
     }
 
-    img{
-        border: 1px solid gray;
-        display: block;
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
 }
 
 .footer {
@@ -264,3 +256,38 @@ td {
 caption {
     font-family: sans-serif;
 }
+
+* {box-sizing: border-box}
+.container-img {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container-img:hover .overlay {
+    opacity: 1;
+  }
